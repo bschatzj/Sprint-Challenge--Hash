@@ -4,7 +4,7 @@ def get_indices_of_item_weights(weights, length, limit):
     YOUR CODE HERE
     """
 
-    weights_dict = dict()
+    weights_dict = {}
 
     for index in range(length):
         # find the index that gets us to the limit
